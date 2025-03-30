@@ -14,7 +14,6 @@ body {
 
     display: flex;
     flex-direction: column;
-
 }
 
 #resultDiv {
@@ -22,6 +21,7 @@ body {
     background-color: white;
     border-style: solid;
     border-color: brown;
+    border-bottom: 20px solid;
 }
 
 #buttonsDiv {
@@ -33,7 +33,20 @@ body {
 
 .fourButtonsRow {
     flex: 1;
-    background-color: blueviolet;
     border-style: solid;
     border-width: 2px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    flex: 1;
+    border-style: solid;
+    border-width: 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
 }
